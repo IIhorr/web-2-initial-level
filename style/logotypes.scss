@@ -1,0 +1,21 @@
+
+.logotypes {
+    margin-top: 100px;
+}
+
+.logotypes__inner {
+    display: flex;
+    align-items: center;
+}
+
+.logotypes__item {
+    width: 25%;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:last-child {
+        padding-right: 0;
+    }
+}

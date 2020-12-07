@@ -1,0 +1,140 @@
+.intro {
+    height: 345px;
+    margin-bottom: 95px;
+}
+
+.intro__inner {
+    display: flex;
+    margin: 0 70px;
+    position: relative;
+}
+
+.intro__column {
+    width: 50%;
+    position: absolute;
+}
+
+.intro__column:nth-child(1) {
+    top: -150px;
+    left: 0;
+    padding-right: 10px;
+}
+
+.intro__column:nth-child(2) {
+    top: -74px;
+    right: 0;
+}
+
+.intro__count {
+    z-index: 2;
+    position: relative;
+
+    div:nth-child(1) {
+        position: absolute;
+        top: -75px;
+        right: -22px;
+        font-family: 'Gilroy';
+        font-size: 179px;
+        line-height: .8;
+        font-weight: 800;
+        color: #fff;
+    }
+
+    div:nth-child(2) {
+        height: 7px;
+        width: 100px;
+        position: absolute;
+        top: -40px;
+        left: 0;
+        z-index: 2;
+
+        background-color: #fff;
+    }
+}
+
+.intro__title {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 25px;
+
+    font-size: 47px;
+    color: #000;
+    font-family: 'Gilroy';
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.intro__text {
+    margin-bottom: 45px;
+
+    font-size: 15px;
+    color: #464646;
+    font-weight: 300;
+    line-height: 2;
+}
+
+.btn__count {
+    display: flex;
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro__slider-count {
+    display: flex;
+    div {
+        width: 12px;
+        height: 12px;
+        margin-left: 15px;
+        position: relative;
+        
+        border-radius: 50%;
+        border: 1px solid #000;
+    }
+
+    div:nth-child(1)::before {
+        content: "";
+        display: block;
+        width: 5px;
+        height: 5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        border-radius: 50%;
+        border: 1px solid #000;
+
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+.intro__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    span {
+        display: block;
+
+        text-align: center;
+    }
+}
+.intro__info-up {
+    margin-bottom: 7px;
+
+    font-size: 36px;
+    color: #000;
+    font-family: 'Gilroy';
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+.intro__info-down {
+    font-size: 13px;
+    font-weight: 300;
+    color: #464646;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+

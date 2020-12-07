@@ -1,0 +1,33 @@
+.categories {
+    margin-bottom: 230px;
+}
+.categories__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories__item {
+    width: 14%;
+    &:nth-child(2) .categories__photo {
+        align-items: flex-end;
+    }
+}
+
+.categories__photo {
+    display: flex;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    background-color: #f7e296;
+}
+
+
+.categories__text {
+    color: #000;
+    font-size: 17px;
+    font-family: 'Gilroy';
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
